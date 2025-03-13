@@ -1,14 +1,4 @@
-/* =====================================
-Template Name: 	Mediplus.
-Author Name: Naimur Rahman
-Website: http://wpthemesgrid.com/
-Description: Mediplus - Doctor HTML Template.
-Version:	1.1
-========================================*/ 
 
-/*--------------------------------------------------------------
-# Normalize
---------------------------------------------------------------*/
 html {
 	 font-family: 'Poppins', sans-serif;
 	-moz-text-size-adjust: 100%;
@@ -726,10 +716,6 @@ select {
 textarea {
 	width: 100%;
 }
-
-/*--------------------------------------------------------------
-# Navigation
---------------------------------------------------------------*/
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
@@ -949,9 +935,6 @@ a:hover, a:active {
 }
 
 /*--------------------------------------------------------------
-# Content
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
 .sticky {
@@ -991,14 +974,12 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
-/* Globally hidden elements when Infinite Scroll is supported and in use. */
+
 .infinite-scroll .posts-navigation,
 .infinite-scroll.neverending .site-footer {
-	/* Theme Footer (when set to scrolling) */
 	display: none;
 }
 
-/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
 .infinity-end.neverending .site-footer {
 	display: block;
 }
@@ -1015,7 +996,7 @@ a:hover, a:active {
 	padding: 0;
 }
 
-/* Make sure embeds and iframes fit their containers. */
+
 embed,
 iframe,
 object {
